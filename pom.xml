@@ -8,5 +8,36 @@
     <artifactId>ASMUtils</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>A set of utilities, shared between all allotrope converters</description>
+    <url>https://github.com/ifpen/ASMUtils</url>
+
+    <licenses>
+        <license>
+            <name>CeCILL, version 2.1</name>
+            <url>https://opensource.org/license/cecill-2-1/</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Maxime Visconte</name>
+            <email>maxime.visconte@ifpen.fr</email>
+            <organization>IFPEN</organization>
+            <organizationUrl>https://www.ifpenergiesnouvelles.com/</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/ifpen/ASMUtils.git</connection>
+        <developerConnection>scm:git:ssh://github.com:ifpen/ASMUtils.git</developerConnection>
+        <url>https://github.com/ifpen/ASMUtils/tree/main</url>
+    </scm>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+
 </project>
