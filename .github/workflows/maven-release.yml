@@ -27,5 +27,5 @@ jobs:
           mvn -U -B clean deploy -P release
         env:
           SIGN_KEY_PASS: ${{ secrets.GPG_PASSPHRASE }}
-          OSSRH_USERNAME: ${{ secrets.YOUR_SONATYPE_USER }}
-          OSSRH_PASSWORD: ${{ secrets.YOUR_SONATYPE_PW }}
+          OSSRH_USERNAME: ${{ secrets.MAVEN_USERNAME }}
+          OSSRH_PASSWORD: ${{ secrets.MAVEN_PASSWORD }}
