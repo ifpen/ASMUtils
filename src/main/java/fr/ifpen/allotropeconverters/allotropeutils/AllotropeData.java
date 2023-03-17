@@ -1,4 +1,4 @@
-package fr.ifpen.spectrum.ir;
+package fr.ifpen.allotropeconverters.allotropeutils;
 
 import java.util.List;
 
